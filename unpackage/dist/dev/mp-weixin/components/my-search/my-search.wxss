@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.my-search-container {
+  height: 100rpx;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+}
+.my-search-container .my-search-box {
+  width: 100%;
+  height: 72rpx;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  padding-left: 40rpx;
+  color: #9f9f9f;
+}
+.my-search-container .my-search-box .placeholder {
+  font-size: 24rpx;
+  margin-left: 15rpx;
+}
+

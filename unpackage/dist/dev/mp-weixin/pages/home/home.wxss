@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.status_bar {
+  height: 25px;
+  width: 100%;
+}
+.nav {
+  width: 100%;
+  height: 108rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  z-index: 1111;
+}
+.nav_left {
+  width: 20%;
+}
+.nav_center {
+  width: 60%;
+  height: 70rpx;
+  border-radius: 40rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.nav_center .searchIcon {
+  margin-left: 20rpx;
+}
+.nav_right {
+  width: 20%;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-bg {
+  background-color: #F5F5F5;
+  padding: 10rpx 0;
+}
+.city {
+  width: 54rpx;
+  height: 54rpx;
+  background: url(https://cdn.baseus.com/admin/product/baseus.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.left_logo {
+  width: 68rpx;
+  height: 36rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.input-uni-icon {
+  margin-left: 30rpx;
+  line-height: 70rpx;
+}
+.swiper-box {
+  height: 440rpx;
+}
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400rpx;
+  color: #fff;
+}
+.lunbonav {
+  margin-top: 108rpx;
+}
+.lunbo {
+  height: 100%;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  padding: 20rpx;
+}
+.main_adv {
+  height: 500rpx;
+  margin: 30rpx 0;
+}
+.main_category {
+  margin-top: 44rpx;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.category {
+  padding: 30rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category_img {
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: 14rpx;
+}
+.category_title {
+  font-size: 26rpx;
+}
+.main_new {
+  margin-top: 40rpx;
+  text-align: center;
+}
+.new {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14rpx;
+}
+.new_left {
+  width: 390rpx;
+  height: 482rpx;
+}
+.new_right {
+  margin-left: 10rpx;
+  width: 390rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.new_right_3 {
+  margin-left: 10rpx;
+  width: 390rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.new_right_img {
+  width: 350rpx;
+  height: 148rpx;
+}
+.recommend {
+  width: 710rpx;
+  height: 100rpx;
+}
+.bgurl {
+  height: 476rpx;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.travel_img {
+  width: 336rpx;
+  height: 324rpx;
+}
+

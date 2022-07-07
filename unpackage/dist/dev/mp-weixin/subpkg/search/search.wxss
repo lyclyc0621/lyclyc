@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.sugg-list {
+  padding: 0 10rpx;
+}
+.sugg-list .sugg-item {
+  font-size: 30rpx;
+  padding: 26rpx 0;
+  border-bottom: 2rpx solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sugg-list .sugg-item .goods-name {
+  color: #666666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 6rpx;
+}
+.history-box {
+  padding: 0 10rpx;
+}
+.history-box .history-title {
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.history-box .history-list .uni-tag {
+  margin-right: 10rpx;
+}
+

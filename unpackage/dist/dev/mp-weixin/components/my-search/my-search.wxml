@@ -1,0 +1,1 @@
+<view class="search-box"><view data-event-opts="{{[['tap',[['searchBoxHandler',['$event']]]]]}}" class="my-search-container" style="{{'background-color:'+(bgcolor)+';'}}" bindtap="__e"><view class="my-search-box" style="{{'border-radius:'+(radius+'rpx')+';'}}"><icon type="search" size="16"></icon><text class="placeholder">请输入你想搜索的产品</text></view></view></view>

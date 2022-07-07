@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.safe-padding {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  box-sizing: content-box;
+}
+.main {
+  position: relative;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.imgcontainer {
+  width: 750rpx;
+  height: 750rpx;
+}
+.indicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indicator__dot {
+  height: 12rpx;
+  width: 12rpx;
+  border-radius: 200rpx;
+  background-color: rgba(255, 255, 255, 0.35);
+  margin: 0 10rpx;
+  transition: background-color 0.3s;
+}
+.indicator__dot--active {
+  background-color: #ffffff;
+}
+.indicator-num {
+  padding: 4rpx 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 200rpx;
+  width: 70rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indicator-num__text {
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.title {
+  margin: 10rpx 0;
+  padding: 20rpx 30rpx;
+  background-color: #FFFFFF;
+}
+.title .title_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title .title_top .price {
+  font-size: 48rpx;
+  color: #fd6906;
+}
+.title .title_top .like {
+  height: 62rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title .title_top .like .like_left {
+  width: 48rpx;
+  height: 48rpx;
+}
+.title .title_center {
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #666;
+}
+.title .title_bottom {
+  margin-top: 10rpx;
+  line-height: 36rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.choose {
+  margin: 10rpx 0;
+  padding: 20rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+.choose .choose_left {
+  font-size: 28rpx;
+}
+.choose .choose_right {
+  color: #999;
+  display: flex;
+}
+.parameter {
+  background-color: #FFFFFF;
+}
+.parameter .Collapse {
+  padding: 0 0;
+}
+.Evaluation {
+  margin: 10rpx 0;
+  padding: 20rpx 30rpx;
+  height: 146rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.Evaluation .Evaluation_left .Evaluation_left_top {
+  height: 104rpx;
+  line-height: 110rpx;
+}
+.Evaluation .Evaluation_left .Evaluation_left_top .top_text {
+  font-weight: 700;
+  font-size: 80rpx;
+  color: #4b4b4b;
+}
+.Evaluation .Evaluation_left .Evaluation_left_bottom {
+  margin-top: 10rpx;
+}
+.Evaluation .Evaluation_right {
+  display: flex;
+  color: #999;
+}
+.Details {
+  margin-bottom: 100rpx;
+}
+.Details .Details_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+  background-color: #fff;
+}
+.Details .imgheight {
+  line-height: 0rpx;
+}
+.bottomNav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.bottomNav .uni-tab__cart-button-right {
+  border-left: 2rpx solid rgba(204, 204, 204, 0.9);
+}
+.Pop-ups {
+  padding: 60rpx 40rpx;
+}
+.Pop-ups .Specification {
+  font-size: 48rpx;
+  font-weight: 500;
+  color: #39393b;
+}
+.Pop-ups .number {
+  margin-top: 60rpx;
+  font-weight: 500;
+  color: #5d5d5d;
+  display: flex;
+  justify-content: space-between;
+}
+.Pop-ups .allspecs {
+  margin-top: 40rpx;
+}
+.Pop-ups .allspecs .allspecstype {
+  display: flex;
+  margin: 20rpx 0;
+  font-size: 24rpx;
+  flex-wrap: wrap;
+}
+.Pop-ups .allspecs .allspecstype .active {
+  padding: 0 40rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background-color: #ffff;
+  border: 2rpx solid #ff5c18;
+  color: #ff5c18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20rpx 20rpx 0;
+}
+.Pop-ups .allspecs .allspecstype .select {
+  padding: 0 40rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #f0f3f7;
+  color: #364061;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20rpx 20rpx 0;
+}
+.Pop-ups .operate {
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+  line-height: 80rpx;
+  text-align: center;
+}
+.Pop-ups .operate .addcart {
+  width: 320rpx;
+  height: 78rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #707070;
+}
+.Pop-ups .operate .buy {
+  width: 320rpx;
+  height: 80rpx;
+  color: #fff;
+  border-radius: 10rpx;
+  background-color: #fd6906;
+}
+
