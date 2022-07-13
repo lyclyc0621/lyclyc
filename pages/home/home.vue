@@ -115,7 +115,7 @@
 			<!-- 车旅助手 -->
 			<view class="main_new">
 				<view style="font-size: 28rpx;">
-					{{infoList[9].title}}
+					车载周边
 				</view>
 				<view class="new bgurl" :style="{backgroundImage: 'url('+infoList[9].backgroundPic+')'}">
 					<view class="travel_img" v-for="(item ,i) in infoList[9].data" :key="i" @click="contentClick(item)">

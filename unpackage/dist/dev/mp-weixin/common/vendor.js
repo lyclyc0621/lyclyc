@@ -20807,6 +20807,80 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6
 /* 252 */,
 /* 253 */,
 /* 254 */
+/*!**********************************************************************!*\
+  !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-empty/props.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 内置图标名称，或图片路径，建议绝对路径
+    icon: {
+      type: String,
+      default: uni.$u.props.empty.icon },
+
+    // 提示文字
+    text: {
+      type: String,
+      default: uni.$u.props.empty.text },
+
+    // 文字颜色
+    textColor: {
+      type: String,
+      default: uni.$u.props.empty.textColor },
+
+    // 文字大小
+    textSize: {
+      type: [String, Number],
+      default: uni.$u.props.empty.textSize },
+
+    // 图标的颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.empty.iconColor },
+
+    // 图标的大小
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.empty.iconSize },
+
+    // 选择预置的图标类型
+    mode: {
+      type: String,
+      default: uni.$u.props.empty.mode },
+
+    //  图标宽度，单位px
+    width: {
+      type: [String, Number],
+      default: uni.$u.props.empty.width },
+
+    // 图标高度，单位px
+    height: {
+      type: [String, Number],
+      default: uni.$u.props.empty.height },
+
+    // 是否显示组件
+    show: {
+      type: Boolean,
+      default: uni.$u.props.empty.show },
+
+    // 组件距离上一个元素之间的距离，默认px单位
+    marginTop: {
+      type: [String, Number],
+      default: uni.$u.props.empty.marginTop } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */
 /*!***************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-number-box/props.js ***!
   \***************************************************************************/
@@ -20923,14 +20997,14 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */,
-/* 261 */,
-/* 262 */
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */
 /*!*************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \*************************************************************************/
@@ -22106,14 +22180,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     "unicode_decimal": 58929 }] };exports.default = _default;
 
 /***/ }),
-/* 263 */,
-/* 264 */,
-/* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */,
+/* 277 */,
+/* 278 */
 /*!*************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-back-top/props.js ***!
   \*************************************************************************/
@@ -22175,14 +22249,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 271 */,
-/* 272 */,
-/* 273 */,
-/* 274 */,
-/* 275 */,
-/* 276 */,
-/* 277 */,
-/* 278 */
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */
 /*!***********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-swiper/props.js ***!
   \***********************************************************************/
@@ -22315,14 +22389,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 279 */,
-/* 280 */,
-/* 281 */,
-/* 282 */,
-/* 283 */,
-/* 284 */,
-/* 285 */,
-/* 286 */
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */
 /*!*********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \*********************************************************************/
@@ -22545,7 +22619,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   'uicon-en': "\uE692" };exports.default = _default;
 
 /***/ }),
-/* 287 */
+/* 295 */
 /*!*********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-icon/props.js ***!
   \*********************************************************************/
@@ -22642,14 +22716,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 288 */,
-/* 289 */,
-/* 290 */,
-/* 291 */,
-/* 292 */,
-/* 293 */,
-/* 294 */,
-/* 295 */
+/* 296 */,
+/* 297 */,
+/* 298 */,
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */
 /*!*************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-collapse/props.js ***!
   \*************************************************************************/
@@ -22676,14 +22750,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 296 */,
-/* 297 */,
-/* 298 */,
-/* 299 */,
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */
 /*!******************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-collapse-item/props.js ***!
   \******************************************************************************/
@@ -22750,14 +22824,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
 /* 312 */,
 /* 313 */,
 /* 314 */,
@@ -22778,7 +22844,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 329 */,
 /* 330 */,
 /* 331 */,
-/* 332 */
+/* 332 */,
+/* 333 */,
+/* 334 */,
+/* 335 */,
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */
 /*!*********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-rate/props.js ***!
   \*********************************************************************/
@@ -22855,14 +22929,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */
+/* 341 */,
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */
 /*!**************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
   \**************************************************************************************/
@@ -22870,16 +22944,16 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 341));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 342));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 343));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 349));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 350));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 351));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
   'zh-Hant': _zhHant.default };exports.default = _default;
 
 /***/ }),
-/* 341 */
+/* 349 */
 /*!*************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
   \*************************************************************************************/
@@ -22889,7 +22963,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 3
 module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-goods-nav.options.cart\":\"cart\",\"uni-goods-nav.buttonGroup.addToCart\":\"add to cart\",\"uni-goods-nav.buttonGroup.buyNow\":\"buy now\"}");
 
 /***/ }),
-/* 342 */
+/* 350 */
 /*!******************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
   \******************************************************************************************/
@@ -22899,7 +22973,7 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-good
 module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-goods-nav.options.cart\":\"购物车\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入购物车\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即购买\"}");
 
 /***/ }),
-/* 343 */
+/* 351 */
 /*!******************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
   \******************************************************************************************/
@@ -22909,14 +22983,14 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-go
 module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-goods-nav.options.cart\":\"購物車\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入購物車\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即購買\"}");
 
 /***/ }),
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */
+/* 352 */,
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */
 /*!**********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-popup/props.js ***!
   \**********************************************************************/
@@ -23003,14 +23077,14 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-go
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */
 /*!****************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
   \****************************************************************************************/
@@ -23018,16 +23092,16 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-go
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 360));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 361));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 362));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 368));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 369));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 370));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
   'zh-Hant': _zhHant.default };exports.default = _default;
 
 /***/ }),
-/* 360 */
+/* 368 */
 /*!***************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
   \***************************************************************************************/
@@ -23037,7 +23111,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 3
 module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
 
 /***/ }),
-/* 361 */
+/* 369 */
 /*!********************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
   \********************************************************************************************/
@@ -23047,7 +23121,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
 
 /***/ }),
-/* 362 */
+/* 370 */
 /*!********************************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
   \********************************************************************************************/
@@ -23057,21 +23131,21 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
 
 /***/ }),
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
 /* 371 */,
 /* 372 */,
 /* 373 */,
 /* 374 */,
 /* 375 */,
 /* 376 */,
-/* 377 */
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */,
+/* 384 */,
+/* 385 */
 /*!***************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-transition/props.js ***!
   \***************************************************************************/
@@ -23103,7 +23177,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 378 */
+/* 386 */
 /*!********************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \********************************************************************************/
@@ -23114,7 +23188,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 47));
 
 
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 379));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 387));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -23268,7 +23342,7 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
-/* 379 */
+/* 387 */
 /*!**********************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \**********************************************************************************/
@@ -23344,14 +23418,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
 /***/ }),
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */
+/* 388 */,
+/* 389 */,
+/* 390 */,
+/* 391 */,
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */
 /*!*****************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \*****************************************************************************/
@@ -23418,14 +23492,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */
 /*!*********************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
   \*********************************************************************************/
@@ -23462,14 +23536,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */
 /*!*********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-line/props.js ***!
   \*********************************************************************/
@@ -23510,14 +23584,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 404 */,
-/* 405 */,
-/* 406 */,
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */
 /*!*********************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-cell/props.js ***!
   \*********************************************************************/
@@ -23635,21 +23709,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 412 */,
-/* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
 /* 420 */,
 /* 421 */,
 /* 422 */,
 /* 423 */,
 /* 424 */,
 /* 425 */,
-/* 426 */
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */,
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */
 /*!************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \************************************************************************/
@@ -23681,14 +23755,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 427 */,
-/* 428 */,
-/* 429 */,
-/* 430 */,
-/* 431 */,
-/* 432 */,
-/* 433 */,
-/* 434 */
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */
 /*!***************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \***************************************************************************/
@@ -23704,14 +23778,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */,
-/* 441 */,
-/* 442 */
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */,
+/* 450 */
 /*!****************************************************************************!*\
   !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \****************************************************************************/
@@ -23721,118 +23795,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
   props: {} };exports.default = _default;
-
-/***/ }),
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */,
-/* 449 */,
-/* 450 */,
-/* 451 */,
-/* 452 */,
-/* 453 */,
-/* 454 */,
-/* 455 */,
-/* 456 */,
-/* 457 */,
-/* 458 */,
-/* 459 */,
-/* 460 */,
-/* 461 */,
-/* 462 */,
-/* 463 */,
-/* 464 */,
-/* 465 */,
-/* 466 */,
-/* 467 */,
-/* 468 */,
-/* 469 */,
-/* 470 */,
-/* 471 */,
-/* 472 */,
-/* 473 */,
-/* 474 */,
-/* 475 */,
-/* 476 */,
-/* 477 */,
-/* 478 */,
-/* 479 */,
-/* 480 */,
-/* 481 */,
-/* 482 */,
-/* 483 */,
-/* 484 */,
-/* 485 */,
-/* 486 */,
-/* 487 */,
-/* 488 */
-/*!**********************************************************************!*\
-  !*** E:/BEISI/beis/uni_modules/uview-ui/components/u-empty/props.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 内置图标名称，或图片路径，建议绝对路径
-    icon: {
-      type: String,
-      default: uni.$u.props.empty.icon },
-
-    // 提示文字
-    text: {
-      type: String,
-      default: uni.$u.props.empty.text },
-
-    // 文字颜色
-    textColor: {
-      type: String,
-      default: uni.$u.props.empty.textColor },
-
-    // 文字大小
-    textSize: {
-      type: [String, Number],
-      default: uni.$u.props.empty.textSize },
-
-    // 图标的颜色
-    iconColor: {
-      type: String,
-      default: uni.$u.props.empty.iconColor },
-
-    // 图标的大小
-    iconSize: {
-      type: [String, Number],
-      default: uni.$u.props.empty.iconSize },
-
-    // 选择预置的图标类型
-    mode: {
-      type: String,
-      default: uni.$u.props.empty.mode },
-
-    //  图标宽度，单位px
-    width: {
-      type: [String, Number],
-      default: uni.$u.props.empty.width },
-
-    // 图标高度，单位px
-    height: {
-      type: [String, Number],
-      default: uni.$u.props.empty.height },
-
-    // 是否显示组件
-    show: {
-      type: Boolean,
-      default: uni.$u.props.empty.show },
-
-    // 组件距离上一个元素之间的距离，默认px单位
-    marginTop: {
-      type: [String, Number],
-      default: uni.$u.props.empty.marginTop } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })
 ]]);
